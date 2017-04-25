@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/adriandeveloper/webpack-basics#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "sass-lint": "^1.10.2"
   }
 }

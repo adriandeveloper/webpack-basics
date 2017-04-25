@@ -1,0 +1,20 @@
+// add function
+@function sum($left, $right) {
+  @return $left + $right;
+}
+
+
+// convert pixels to em function
+@function em($pixels, $context: 16px) {
+  @return ($pixels / $context) * 1em;
+}
+
+// create a column function
+@function col-width($columns: 12, $page-width: 100%, $gap: 1%) {
+  @return ($page-width - $gap*($columns - 1)) / $columns;
+}
+
+// strip units function
+@function strip-unit($value) {
+  @return $value / ($value*0 + 1);
+}
