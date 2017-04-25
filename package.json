@@ -2,14 +2,22 @@
   "name": "webpack-basics",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriandeveloper/webpack-basics.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriandeveloper/webpack-basics/issues"
+  },
+  "homepage": "https://github.com/adriandeveloper/webpack-basics#readme",
   "devDependencies": {
-    "webpack": "^2.4.1"
+    "gulp": "^3.9.1"
   }
 }
